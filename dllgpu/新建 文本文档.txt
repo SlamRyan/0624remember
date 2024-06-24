@@ -1,0 +1,35 @@
+extern "C" INSTOOL_API void ImageExtarction(unsigned char *srcDta, int inWidth, int inHeight, int inStride, int num, InsImage *dstData)
+{
+        if (num <= 0)
+                num = 1;
+        int outWidth = inWidth;
+        int outHeight = inHeight / num;
+        for (int i = 0; i < num; ++i)
+        {
+                dstData[i].width = outWidth;
+                dstData[i].height = outHeight;
+                dstData[i].stride = inStride;
+                dstData[i].data = new unsigned char[outHeight * outWidth];
+        }
+
+        for (int i = 0; i < outHeight; ++i)
+        {
+                for (int j = 0; j < num; ++j)
+                {
+                        memcpy(dstData[j].data + i * inWidth, srcDta + (i * num + j) * inStride, inWidth);
+                }
+
+
+                
+        }
+}
+
+extern "C" INSTOOL_API void DestroyImageArray(InsImage *dstData, int num)
+{
+        for (int i = 0; i < num; ++i)
+        {
+                if(dstData[i].data != NULL)
+                        delete[] dstData[i].data;
+                dstData[i].data = NULL;
+        }
+}
