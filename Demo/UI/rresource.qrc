@@ -1,0 +1,63 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>Green.png</file>
+        <file>icon/8.png</file>
+        <file>icon/back_1.png</file>
+        <file>icon/cam.png</file>
+        <file>icon/forward_1.png</file>
+        <file>icon/graph (2).png</file>
+        <file>icon/graph.png</file>
+        <file>icon/Green.png</file>
+        <file>icon/Green20.png</file>
+        <file>icon/help.png</file>
+        <file>icon/ins_about.png</file>
+        <file>icon/ins2_b.png</file>
+        <file>icon/LE.png</file>
+        <file>icon/Ledit.png</file>
+        <file>icon/LEDOFF.png</file>
+        <file>icon/LEDON.png</file>
+        <file>icon/LEEE.jpg</file>
+        <file>icon/lightedit.png</file>
+        <file>icon/LLLEdit.png</file>
+        <file>icon/LLLL.png</file>
+        <file>icon/new.png</file>
+        <file>icon/one.png</file>
+        <file>icon/open.png</file>
+        <file>icon/open2.png</file>
+        <file>icon/passwd_clear.png</file>
+        <file>icon/passwd_hide.png</file>
+        <file>icon/passwd_show.png</file>
+        <file>icon/pause.png</file>
+        <file>icon/quit.png</file>
+        <file>icon/Red.png</file>
+        <file>icon/Red20.png</file>
+        <file>icon/Red100.png</file>
+        <file>icon/Rotate left.png</file>
+        <file>icon/Rotate right.png</file>
+        <file>icon/save.png</file>
+        <file>icon/saveAs.png</file>
+        <file>icon/serial.png</file>
+        <file>icon/start.png</file>
+        <file>icon/stop.png</file>
+        <file>icon/three.png</file>
+        <file>icon/two.png</file>
+        <file>icon/zoom-in.png</file>
+        <file>icon/zoom-out.png</file>
+        <file>icon/leftfan20.png</file>
+        <file>icon/leftfzheng20.png</file>
+        <file>icon/rightfan20.png</file>
+        <file>icon/rightzheng20.png</file>
+        <file>icon/leftfan10.png</file>
+        <file>icon/leftzheng10.png</file>
+        <file>icon/rightfan10.png</file>
+        <file>icon/rightzheng10.png</file>
+        <file>icon/cam1.png</file>
+        <file>icon/cam8.png</file>
+        <file>icon/camcam.png</file>
+        <file>icon/light1.png</file>
+        <file>icon/light3.png</file>
+        <file>icon/light4.png</file>
+        <file>icon/cordinFinal2.png</file>
+        <file>icon/ins.ico</file>
+    </qresource>
+</RCC>

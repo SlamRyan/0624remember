@@ -1,0 +1,87 @@
+﻿  ImageProcessor.cpp
+  insglobalvar.cpp
+  ins_camlightpose.cpp
+  ins_devicechoose.cpp
+  ins_DeviceConnect.cpp
+  ins_directionchoose.cpp
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\source\ins_camlightpose.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\source\ins_devicechoose.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\ins_camlightpose.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 source\ins_camlightpose.cpp)
+  ins_encodeverify.cpp
+  ins_imagevalue.cpp
+  ins_spaceadjust.cpp
+  ins_titlebar.cpp
+  ins_widget.cpp
+  lightedit.cpp
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\source\ins_spaceadjust.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  main.cpp
+  mainwindow.cpp
+  modbuscommit.cpp
+  MyGraphicsView.cpp
+  updatethread.cpp
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\source\lightedit.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\source\updatethread.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\updatethread.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 source\updatethread.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\ins_camera_c.h(96,130): warning C4190: “InsPMDL_GenerateSystemModel”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>” (编译源文件 source\insglobalvar.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明 (编译源文件 source\insglobalvar.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\ins_camera_c.h(96,130): warning C4190: “InsPMDL_GenerateSystemModel”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>” (编译源文件 source\ins_devicechoose.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明 (编译源文件 source\ins_devicechoose.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\ins_camera_c.h(96,130): warning C4190: “InsPMDL_GenerateSystemModel”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>” (编译源文件 source\mainwindow.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明 (编译源文件 source\mainwindow.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\ins_camera_c.h(96,130): warning C4190: “InsPMDL_GenerateSystemModel”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>” (编译源文件 source\main.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明 (编译源文件 source\main.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\ins_camera_c.h(96,130): warning C4190: “InsPMDL_GenerateSystemModel”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>” (编译源文件 source\updatethread.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明 (编译源文件 source\updatethread.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\ins_camera_c.h(96,130): warning C4190: “InsPMDL_GenerateSystemModel”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>” (编译源文件 source\ins_encodeverify.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明 (编译源文件 source\ins_encodeverify.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\ins_camera_c.h(96,130): warning C4190: “InsPMDL_GenerateSystemModel”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>” (编译源文件 source\ins_DeviceConnect.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明 (编译源文件 source\ins_DeviceConnect.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\ins_image_processing.h(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“InsImage”的左侧 (编译源文件 source\ImageProcessor.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\ins_camera_c.h(96,130): warning C4190: “InsPMDL_GenerateSystemModel”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>” (编译源文件 source\ImageProcessor.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明 (编译源文件 source\ImageProcessor.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\ins_camera_c.h(96,130): warning C4190: “InsPMDL_GenerateSystemModel”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>” (编译源文件 source\ins_widget.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明 (编译源文件 source\ins_widget.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\ins_camera_c.h(96,130): warning C4190: “InsPMDL_GenerateSystemModel”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>” (编译源文件 source\ins_camlightpose.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明 (编译源文件 source\ins_camlightpose.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\ins_image_processing.h(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“InsImage”的左侧 (编译源文件 source\insglobalvar.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\ins_image_processing.h(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“InsImage”的左侧 (编译源文件 source\ins_widget.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\ins_image_processing.h(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“InsImage”的左侧 (编译源文件 source\ins_camlightpose.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\ins_image_processing.h(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“InsImage”的左侧 (编译源文件 source\mainwindow.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\updatethread.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 source\insglobalvar.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\ins_image_processing.h(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“InsImage”的左侧 (编译源文件 source\ins_encodeverify.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\updatethread.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 source\ins_widget.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\updatethread.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 source\ins_camlightpose.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\ins_image_processing.h(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“InsImage”的左侧 (编译源文件 source\updatethread.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\updatethread.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 source\ImageProcessor.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\ins_image_processing.h(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“InsImage”的左侧 (编译源文件 source\main.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\updatethread.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 source\ins_encodeverify.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\updatethread.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 source\mainwindow.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\updatethread.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 source\main.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\ins_camlightpose.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 source\mainwindow.cpp)
+  qrc_rresource.cpp
+  moc_ins_camlightpose.cpp
+  moc_ins_devicechoose.cpp
+  moc_ins_encodeverify.cpp
+  moc_ins_imagevalue.cpp
+  moc_ins_spaceadjust.cpp
+  moc_ins_widget.cpp
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\ins_camlightpose.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 x64\Release\moc\moc_ins_camlightpose.cpp)
+  moc_ImageProcessor.cpp
+  moc_MyGraphicsView.cpp
+  moc_mainwindow.cpp
+  moc_ins_directionchoose.cpp
+  moc_ins_DeviceConnect.cpp
+  moc_ins_titlebar.cpp
+  moc_updatethread.cpp
+  moc_modbuscommit.cpp
+  moc_lightedit.cpp
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\updatethread.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 x64\Release\moc\moc_updatethread.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\ins_camera_c.h(96,130): warning C4190: “InsPMDL_GenerateSystemModel”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>” (编译源文件 x64\Release\moc\moc_ins_devicechoose.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明 (编译源文件 x64\Release\moc\moc_ins_devicechoose.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\ins_camera_c.h(96,130): warning C4190: “InsPMDL_GenerateSystemModel”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>” (编译源文件 x64\Release\moc\moc_mainwindow.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明 (编译源文件 x64\Release\moc\moc_mainwindow.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\ins_camera_c.h(96,130): warning C4190: “InsPMDL_GenerateSystemModel”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>” (编译源文件 x64\Release\moc\moc_ins_DeviceConnect.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明 (编译源文件 x64\Release\moc\moc_ins_DeviceConnect.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\ins_image_processing.h(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“InsImage”的左侧 (编译源文件 x64\Release\moc\moc_mainwindow.cpp)
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\updatethread.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 x64\Release\moc\moc_mainwindow.cpp)
+  Demo.vcxproj -> D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\x64\Release\Demo.exe
