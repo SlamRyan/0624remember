@@ -1,0 +1,116 @@
+[2024-05-24 10:02:21.460] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 10:02:33.397] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 10:02:33.397] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:03:51.326] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:04:04.620] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:04:04.620] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:07:14.449] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:07:29.449] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:07:29.449] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:12:04.145] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:12:30.714] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:12:44.621] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:12:44.622] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:15:02.623] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:15:14.547] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:15:14.548] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:23:29.213] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:23:42.718] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:23:42.739] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:23:45.086] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:23:45.110] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:30:02.629] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:30:14.700] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:30:14.719] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:32:18.277] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:32:27.482] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:32:27.500] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:32:57.473] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:33:05.884] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:33:05.902] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:35:21.347] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:35:29.396] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:35:29.419] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:39:46.168] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:39:54.539] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:39:54.557] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:48:10.772] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:48:19.064] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:48:19.082] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:48:35.456] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:48:44.795] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:48:44.814] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:49:52.462] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:50:01.468] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 11:50:01.486] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 13:14:36.338] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 13:14:48.870] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 13:14:48.871] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 15:12:27.719] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 15:48:46.144] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 15:48:53.790] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 15:48:53.790] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 15:49:39.567] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 15:49:51.283] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 15:49:51.283] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 16:10:02.765] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 16:10:08.888] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 16:10:08.888] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 16:12:46.610] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 16:12:52.748] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 16:12:52.748] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:16:50.622] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:16:57.854] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:16:57.854] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:23:50.715] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:23:58.236] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:23:58.236] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:24:02.554] [daily_logger] [info] GetExposure.
+[2024-05-24 17:24:04.330] [daily_logger] [info] exposure is:8.000000
+[2024-05-24 17:24:06.944] [daily_logger] [info] GetExposure.
+[2024-05-24 17:24:07.957] [daily_logger] [info] exposure is:8.000000
+[2024-05-24 17:24:48.732] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:24:54.781] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:24:54.781] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:25:01.669] [daily_logger] [info] GetExposure.
+[2024-05-24 17:25:12.462] [daily_logger] [info] exposure is:8.000000
+[2024-05-24 17:25:25.212] [daily_logger] [info] GetExposure.
+[2024-05-24 17:25:25.839] [daily_logger] [info] exposure is:8.000000
+[2024-05-24 17:26:56.926] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:27:03.041] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:27:03.041] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:27:09.082] [daily_logger] [info] GetExposure.
+[2024-05-24 17:27:09.861] [daily_logger] [info] exposure is:8.000000
+[2024-05-24 17:27:13.738] [daily_logger] [info] GetExposure.
+[2024-05-24 17:27:14.559] [daily_logger] [info] exposure is:8.000000
+[2024-05-24 17:44:27.814] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:44:34.477] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:44:34.478] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:44:39.760] [daily_logger] [info] GetExposure.
+[2024-05-24 17:44:39.760] [daily_logger] [info] exposure is:0.000000
+[2024-05-24 17:44:41.734] [daily_logger] [info] GetExposure.
+[2024-05-24 17:44:41.734] [daily_logger] [info] exposure is:0.000000
+[2024-05-24 17:45:21.866] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:45:33.380] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:45:33.380] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:45:39.609] [daily_logger] [info] GetExposure.
+[2024-05-24 17:45:39.609] [daily_logger] [info] exposure is:179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000
+[2024-05-24 17:45:41.142] [daily_logger] [info] GetExposure.
+[2024-05-24 17:45:41.142] [daily_logger] [info] exposure is:179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000
+[2024-05-24 17:46:41.462] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:46:50.089] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:46:50.089] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:46:57.356] [daily_logger] [info] GetExposure.
+[2024-05-24 17:46:58.428] [daily_logger] [info] exposure is:8.000000
+[2024-05-24 17:47:04.754] [daily_logger] [info] GetExposure.
+[2024-05-24 17:47:07.094] [daily_logger] [info] exposure is:8.000000
+[2024-05-24 17:48:01.488] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:48:10.357] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:48:10.358] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:48:23.288] [daily_logger] [info] GetExposure.
+[2024-05-24 17:48:44.803] [daily_logger] [info] exposure is:8.000000
+[2024-05-24 17:48:49.854] [daily_logger] [info] GetExposure.
+[2024-05-24 17:48:51.494] [daily_logger] [info] exposure is:8.000000
+[2024-05-24 17:49:26.953] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:49:38.436] [daily_logger] [info] Load 2D5 SDK successfully.
+[2024-05-24 17:49:38.436] [daily_logger] [info] Load 2D5 SDK successfully.

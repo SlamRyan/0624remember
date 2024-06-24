@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BA89CFDF-BD8F-4FD1-9ABE-D00FFE83DDD7}</ProjectGuid>
+    <Keyword>QtVS_v304</Keyword>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
+    <QtInstall>5.12.12_msvc2017_64</QtInstall>
+    <QtModules>core;xml;sql;gui;widgets;serialport</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
+    <QtInstall>5.12.12_msvc2017_64</QtInstall>
+    <QtModules>core;xml;sql;gui;widgets;serialport;network</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Link>
+      <AdditionalDependencies>Qt5SerialBus.lib;InsCamera.lib;ins_image_processing.lib;InsLightSetting.lib;opencv_world411.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(MSBuildProjectDirectory)\lib;D:\software\Qt\Qt5.12.12\5.12.12\msvc2017_64\lib;C:\opencv411\build\x64\vc15\lib;$(OutDir);D:\soft\qt\5.12.12\msvc2017_64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MSBuildStartupDirectory)\InsCamera\include;$(LocalDebuggerWorkingDirectory)include;C:\opencv411\build\include;D:\software\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtSerialBus;$(SolutionDir)InsCamera\include;D:\soft\qt\5.12.12\msvc2017_64\include\QtSerialBus;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MSBuildStartupDirectory)\InsCamera\include;$(LocalDebuggerWorkingDirectory)include;C:\opencv411\build\include;D:\software\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtSerialBus;$(SolutionDir)InsCamera\include;D:\soft\qt\5.12.12\msvc2017_64\include\QtSerialBus;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(MSBuildProjectDirectory)\lib;D:\software\Qt\Qt5.12.12\5.12.12\msvc2017_64\lib;C:\opencv411\build\x64\vc15\lib;$(OutDir);D:\soft\qt\5.12.12\msvc2017_64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Qt5SerialBus.lib;InsCamera.lib;ins_image_processing.lib;InsLightSetting.lib;opencv_world411d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="source\ImageProcessor.cpp" />
+    <ClCompile Include="source\insglobalvar.cpp" />
+    <ClCompile Include="source\ins_camlightpose.cpp" />
+    <ClCompile Include="source\ins_devicechoose.cpp" />
+    <ClCompile Include="source\ins_DeviceConnect.cpp" />
+    <ClCompile Include="source\ins_directionchoose.cpp" />
+    <ClCompile Include="source\ins_encodeverify.cpp" />
+    <ClCompile Include="source\ins_imagevalue.cpp" />
+    <ClCompile Include="source\ins_spaceadjust.cpp" />
+    <ClCompile Include="source\ins_titlebar.cpp" />
+    <ClCompile Include="source\ins_widget.cpp" />
+    <ClCompile Include="source\lightedit.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\mainwindow.cpp" />
+    <ClCompile Include="source\modbuscommit.cpp" />
+    <ClCompile Include="source\MyGraphicsView.cpp" />
+    <ClCompile Include="source\updatethread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="include\ins_camlightpose.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="include\ins_devicechoose.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="include\ins_encodeverify.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="include\ins_imagevalue.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="include\ins_spaceadjust.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="include\ins_widget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\baseAddr.h" />
+    <QtMoc Include="include\ImageProcessor.h" />
+    <ClInclude Include="include\insglobalvar.h" />
+    <ClInclude Include="include\InsRegister.h" />
+    <QtMoc Include="include\MyGraphicsView.h" />
+    <QtMoc Include="include\mainwindow.h" />
+    <ClInclude Include="resource.h" />
+    <QtMoc Include="include\ins_directionchoose.h" />
+    <QtMoc Include="include\ins_DeviceConnect.h" />
+    <QtMoc Include="include\ins_titlebar.h" />
+    <QtMoc Include="include\updatethread.h" />
+    <QtMoc Include="include\modbuscommit.h" />
+    <QtMoc Include="include\lightedit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="UI\ins_camlightpose.ui" />
+    <QtUic Include="UI\ins_devicechoose.ui" />
+    <QtUic Include="UI\ins_DeviceConnect.ui" />
+    <QtUic Include="UI\ins_directionchoose.ui" />
+    <QtUic Include="UI\ins_encodeverify.ui" />
+    <QtUic Include="UI\ins_imagevalue.ui" />
+    <QtUic Include="UI\ins_spaceadjust.ui" />
+    <QtUic Include="UI\lightedit.ui" />
+    <QtUic Include="UI\mainwindow.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="UI\rresource.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtTranslation Include="Translationh_ch_zh_Hant.ts" />
+    <QtTranslation Include="Translation_en_en_US.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Demo1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="UI\icon\ins.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
