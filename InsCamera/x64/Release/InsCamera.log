@@ -1,0 +1,923 @@
+﻿  ins_camera_c.cpp
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\inscp_udp.h(117,43): warning C4251: “INSCP::mDeviceInfo”: class“std::vector<Ins2D5LightDeviceAndLocalIP,std::allocator<Ins2D5LightDeviceAndLocalIP>>”需要有 dll 接口由 class“INSCP”的客户端使用
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\inscp_udp.h(117): message : 参见“std::vector<Ins2D5LightDeviceAndLocalIP,std::allocator<Ins2D5LightDeviceAndLocalIP>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\modbus_udp.h(31,17): warning C4251: “modbus_udp::error_msg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“modbus_udp”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\modbus_udp.h(52,17): warning C4251: “modbus_udp::HOST”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“modbus_udp”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\Ins_Camera_proc.h(117,30): warning C4251: “InsCameraIkap::full_name_”: class“std::vector<std::string,std::allocator<std::string>>”需要有 dll 接口由 class“InsCameraIkap”的客户端使用
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\inscp_udp.h(127): message : 参见“std::vector<std::string,std::allocator<std::string>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\Ins_Camera_proc.h(118,30): warning C4251: “InsCameraIkap::device_class_”: class“std::vector<std::string,std::allocator<std::string>>”需要有 dll 接口由 class“InsCameraIkap”的客户端使用
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\inscp_udp.h(127): message : 参见“std::vector<std::string,std::allocator<std::string>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\Ins_Camera_proc.h(122,17): warning C4251: “InsCameraIkap::CamFullName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InsCameraIkap”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\ins_camera_c.h(96,130): warning C4190: “InsPMDL_GenerateSystemModel”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\Demo\include\ins_image_processing.h(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“InsImage”的左侧
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\ins_camera_c.cpp(65,13): warning C4101: “value”: 未引用的局部变量
+  base_camera.cpp
+  device.cpp
+  inscp_udp.cpp
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\inscp_udp.h(117,43): warning C4251: “INSCP::mDeviceInfo”: class“std::vector<Ins2D5LightDeviceAndLocalIP,std::allocator<Ins2D5LightDeviceAndLocalIP>>”需要有 dll 接口由 class“INSCP”的客户端使用
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\inscp_udp.h(117): message : 参见“std::vector<Ins2D5LightDeviceAndLocalIP,std::allocator<Ins2D5LightDeviceAndLocalIP>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(15,20): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(94,62): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(95,55): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(96,66): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(97,85): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(98,49): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(99,63): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(100,62): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(101,117): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(102,68): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(103,81): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(119,78): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(120,81): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(121,78): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(122,81): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(123,108): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(124,96): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(125,87): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(126,93): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(127,75): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(128,63): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(159,90): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(173,62): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(174,55): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(175,66): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(176,85): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(177,49): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(178,63): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(179,104): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(180,117): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(181,114): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(182,81): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(196,80): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(197,83): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(198,80): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(199,83): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(200,110): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(201,98): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(202,89): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(203,95): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(204,77): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(205,65): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(251,27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(311,62): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(312,55): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(313,66): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(314,85): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(315,49): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(316,63): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(317,62): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(318,73): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(319,68): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(320,81): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(337,77): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(338,80): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(339,77): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(340,80): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(341,107): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(342,95): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(343,86): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(344,92): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(345,74): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(346,62): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(349,78): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(350,81): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(351,78): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(352,81): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(353,108): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(354,96): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(355,87): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(356,93): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(357,75): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(358,63): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(375,134): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(376,113): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(377,119): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(378,101): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(379,89): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(380,122): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(381,104): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(382,107): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(383,104): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(384,107): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(386,129): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(439,78): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(440,81): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(441,78): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(442,81): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(443,108): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(444,96): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(445,87): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(446,93): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(447,75): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(448,63): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\inscp_udp.cpp(515,18): warning C4244: “参数”: 从“SOCKET”转换到“int”，可能丢失数据
+  ins_2D5_log.cpp
+  Ins_Camera_proc.cpp
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\inscp_udp.h(117,43): warning C4251: “INSCP::mDeviceInfo”: class“std::vector<Ins2D5LightDeviceAndLocalIP,std::allocator<Ins2D5LightDeviceAndLocalIP>>”需要有 dll 接口由 class“INSCP”的客户端使用
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\inscp_udp.h(117): message : 参见“std::vector<Ins2D5LightDeviceAndLocalIP,std::allocator<Ins2D5LightDeviceAndLocalIP>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\modbus_udp.h(31,17): warning C4251: “modbus_udp::error_msg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“modbus_udp”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\modbus_udp.h(52,17): warning C4251: “modbus_udp::HOST”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“modbus_udp”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\Ins_Camera_proc.h(117,30): warning C4251: “InsCameraIkap::full_name_”: class“std::vector<std::string,std::allocator<std::string>>”需要有 dll 接口由 class“InsCameraIkap”的客户端使用
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\inscp_udp.h(127): message : 参见“std::vector<std::string,std::allocator<std::string>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\Ins_Camera_proc.h(118,30): warning C4251: “InsCameraIkap::device_class_”: class“std::vector<std::string,std::allocator<std::string>>”需要有 dll 接口由 class“InsCameraIkap”的客户端使用
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\inscp_udp.h(127): message : 参见“std::vector<std::string,std::allocator<std::string>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\Ins_Camera_proc.h(122,17): warning C4251: “InsCameraIkap::CamFullName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InsCameraIkap”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\Ins_Camera_proc.cpp(249,35): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\Ins_Camera_proc.cpp(282,39): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\Ins_Camera_proc.cpp(288,36): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\Ins_Camera_proc.cpp(299,35): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\Ins_Camera_proc.cpp(341,39): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\Ins_Camera_proc.cpp(350,36): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\Ins_Camera_proc.cpp(1309,34): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\Ins_Camera_proc.cpp(1343,38): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\Ins_Camera_proc.cpp(1355,34): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\Ins_Camera_proc.cpp(1389,38): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\Ins_Camera_proc.cpp(1530,32): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\Ins_Camera_proc.cpp(1856,32): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\Ins_Camera_proc.cpp(1857,34): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\Ins_Camera_proc.cpp(1886,44): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  Ins_Utility_global.cpp
+  Ins_Utility_proc.cpp
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\inscp_udp.h(117,43): warning C4251: “INSCP::mDeviceInfo”: class“std::vector<Ins2D5LightDeviceAndLocalIP,std::allocator<Ins2D5LightDeviceAndLocalIP>>”需要有 dll 接口由 class“INSCP”的客户端使用
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\inscp_udp.h(117): message : 参见“std::vector<Ins2D5LightDeviceAndLocalIP,std::allocator<Ins2D5LightDeviceAndLocalIP>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\modbus_udp.h(31,17): warning C4251: “modbus_udp::error_msg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“modbus_udp”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\modbus_udp.h(52,17): warning C4251: “modbus_udp::HOST”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“modbus_udp”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  modbus_udp.cpp
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\inscp_udp.h(117,43): warning C4251: “INSCP::mDeviceInfo”: class“std::vector<Ins2D5LightDeviceAndLocalIP,std::allocator<Ins2D5LightDeviceAndLocalIP>>”需要有 dll 接口由 class“INSCP”的客户端使用
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\inscp_udp.h(117): message : 参见“std::vector<Ins2D5LightDeviceAndLocalIP,std::allocator<Ins2D5LightDeviceAndLocalIP>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\modbus_udp.h(31,17): warning C4251: “modbus_udp::error_msg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“modbus_udp”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\include\modbus_udp.h(52,17): warning C4251: “modbus_udp::HOST”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“modbus_udp”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(59,17): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(63,16): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(111,20): warning C4244: “参数”: 从“SOCKET”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(161,17): warning C4244: “参数”: 从“SOCKET”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(190,28): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(206,20): warning C4244: “=”: 从“short”转换到“uint8_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(210,20): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(215,40): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(236,20): warning C4244: “=”: 从“short”转换到“uint8_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(240,20): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(242,21): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(248,40): warning C4244: “=”: 从“const uint16_t”转换到“uint8_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(266,32): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(278,17): warning C4244: “=”: 从“short”转换到“uint8_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(282,17): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(284,18): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(290,34): warning C4244: “=”: 从“const uint16_t”转换到“uint8_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(323,20): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(325,21): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(472,22): warning C4244: “初始化”: 从“_Rep”转换到“int”，可能丢失数据
+          with
+          [
+              _Rep=__int64
+          ]
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(1173,25): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(1186,23): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(1188,21): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(1189,27): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(1511,25): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(1524,23): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(1526,21): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(1527,27): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(1467,12): warning C4101: “e”: 未引用的局部变量
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(3088,28): warning C4244: “参数”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(3091,30): warning C4244: “参数”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(3094,29): warning C4244: “参数”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(3101,24): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(3698,25): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(3756,22): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(3757,25): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(3805,24): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(3957,24): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5155,72): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5159,66): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5166,77): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5170,78): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5175,77): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5179,78): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5184,77): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5188,78): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5192,76): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5196,77): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5310,64): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5314,63): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5318,67): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5322,70): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5326,61): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5330,61): warning C4302: “类型强制转换”: 从“uint8_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5334,60): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5338,71): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5342,65): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5346,72): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5438,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5442,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5446,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5450,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5454,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5458,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5462,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5466,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5470,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5474,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5478,81): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5482,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5486,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5490,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5494,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5498,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5502,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5510,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5515,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5527,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5531,81): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5535,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5539,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5546,92): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5551,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5556,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5561,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5566,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5571,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5576,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5581,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5586,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5591,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5596,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5601,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5606,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5611,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5616,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5621,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5626,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5636,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5641,91): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5656,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5661,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5666,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5680,79): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5684,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5688,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5692,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5696,80): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5700,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5704,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5708,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5712,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5716,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5720,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5724,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5728,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5732,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5736,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5740,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5744,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5748,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5752,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5756,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5760,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5764,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5768,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5772,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5776,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5780,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5784,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5788,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5792,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5796,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5800,81): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5804,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5808,81): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5812,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5816,81): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5820,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5824,81): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5828,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5832,81): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5836,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5840,81): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5844,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5849,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5853,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5857,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5861,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5865,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5869,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5873,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5877,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5881,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5885,92): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5891,91): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5896,91): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5901,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5906,93): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5911,94): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5916,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5921,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5926,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5931,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5943,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5947,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5951,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5955,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5959,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5963,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5967,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5971,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5975,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5979,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5983,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5987,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5991,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5995,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(5999,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6003,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6007,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6011,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6015,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6019,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6023,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6027,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6031,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6035,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6039,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6043,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6047,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6051,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6055,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6059,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6063,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6067,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6072,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6076,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6083,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6088,91): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6093,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6098,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6103,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6108,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6113,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6118,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6123,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6128,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6133,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6138,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6143,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6148,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6153,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6158,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6163,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6168,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6173,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6178,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6183,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6188,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6193,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6198,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6203,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6208,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6213,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6218,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6223,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6228,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6233,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6238,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6243,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6248,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6253,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6258,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6263,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6268,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6273,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6278,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6283,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6288,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6293,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6298,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6303,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6308,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6313,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6318,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6323,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6328,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6333,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6338,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6343,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6348,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6353,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6358,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6363,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6368,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6373,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6378,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6383,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6388,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6393,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6398,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6403,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6408,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6413,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6418,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6425,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6430,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6435,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6440,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6445,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6450,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6455,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6460,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6465,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6470,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6475,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6480,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6485,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6490,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6495,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6500,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6505,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6510,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6515,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6520,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6525,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6530,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6535,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6540,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6545,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6550,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6555,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6560,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6565,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6570,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6575,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6580,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6586,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6591,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6596,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6601,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6606,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6611,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6616,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6621,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6626,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6631,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6636,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6641,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6646,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6651,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6656,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6661,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6666,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6671,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6676,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6681,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6686,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6691,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6696,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6701,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6706,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6711,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6716,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6721,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6726,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6731,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6736,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6741,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6748,80): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6752,78): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6756,78): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6761,79): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6769,77): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6777,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6781,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6786,81): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6790,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6794,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6891,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6895,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6899,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6903,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6907,81): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6911,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6915,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6919,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6923,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6927,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6931,80): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6935,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6939,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6943,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6947,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6951,81): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6955,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6959,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6963,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6967,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6971,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6975,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6979,81): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6983,80): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6987,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6991,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(6997,91): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7002,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7007,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7012,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7017,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7022,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7027,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7032,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7037,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7042,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7047,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7052,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7057,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7062,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7067,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7072,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7077,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7082,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7087,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7092,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7097,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7102,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7107,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7112,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7117,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7131,78): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7135,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7139,81): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7143,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7147,79): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7151,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7155,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7159,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7163,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7167,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7171,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7175,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7179,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7183,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7187,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7191,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7195,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7199,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7203,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7207,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7211,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7215,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7219,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7223,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7227,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7231,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7235,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7239,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7243,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7247,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7251,80): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7255,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7259,80): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7263,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7267,80): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7271,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7275,80): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7279,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7283,80): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7287,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7291,80): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7295,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7303,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7307,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7311,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7315,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7319,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7323,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7327,83): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7331,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7335,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7339,91): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7345,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7350,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7355,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7360,92): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7365,93): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7370,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7375,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7380,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7385,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7398,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7402,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7406,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7410,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7414,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7418,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7422,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7426,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7430,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7434,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7438,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7442,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7446,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7450,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7454,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7458,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7462,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7466,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7470,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7474,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7478,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7482,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7486,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7490,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7494,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7498,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7502,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7506,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7510,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7514,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7518,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7522,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7527,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7531,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7536,85): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7541,90): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7546,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7551,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7556,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7561,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7566,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7571,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7576,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7581,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7586,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7591,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7596,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7601,88): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7606,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7611,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7616,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7621,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7626,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7631,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7636,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7641,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7646,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7651,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7656,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7661,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7666,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7671,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7676,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7681,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7686,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7691,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7696,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7701,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7706,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7711,89): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7716,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7721,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7726,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7731,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7736,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7741,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7746,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7751,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7756,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7761,86): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7766,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7771,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7776,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7781,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7786,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7791,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7796,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7801,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7806,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7811,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7816,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7821,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7826,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7831,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7836,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7841,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7846,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7851,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7856,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7861,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7866,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7871,87): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7881,79): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7885,77): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7889,77): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7894,78): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7898,78): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7902,76): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7906,77): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7910,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7914,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7919,80): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7923,82): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(7927,84): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8082,32): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8127,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8132,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8137,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8142,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8150,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8155,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8160,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8165,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8170,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8175,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8180,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8185,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8190,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8195,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8200,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8205,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8210,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8215,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8220,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8225,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8230,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8235,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8240,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8245,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8250,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8255,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8260,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8265,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8270,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8275,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8280,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8285,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8290,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8295,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8300,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8305,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8310,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8315,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8320,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8325,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8330,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8335,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8340,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8345,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8350,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8355,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8360,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8365,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8370,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8375,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8380,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8385,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8390,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8395,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8400,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8405,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8410,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8415,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8420,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8425,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8430,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8435,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8440,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8445,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8450,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8455,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8460,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8465,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8470,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8475,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8480,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8485,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8490,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8495,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8500,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8505,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8510,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8515,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8520,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8525,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8530,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8535,6): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8664,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8671,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8678,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8685,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8692,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8699,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8706,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8713,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8720,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8727,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8734,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8741,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8748,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8755,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8762,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8769,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8776,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8783,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8790,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8797,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8804,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8811,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8818,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8825,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8832,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8839,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8846,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8853,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8860,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8867,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8874,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8881,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8888,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8895,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8902,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8909,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8916,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8923,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8930,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8937,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8944,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8951,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8958,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8965,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8972,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8979,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8986,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(8993,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9000,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9007,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9014,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9021,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9028,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9035,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9042,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9049,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9056,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9063,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9070,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9077,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9084,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9091,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9098,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9105,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9112,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9119,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9126,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9133,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9140,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9147,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9154,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9161,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9168,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9175,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9182,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9189,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9196,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9203,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9210,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9217,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9224,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9231,7): warning C4302: “类型强制转换”: 从“uint16_t *”到“uint16_t”截断
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9241,38): warning C4018: “<”: 有符号/无符号不匹配
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9286,24): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9330,22): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9332,20): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9333,26): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9351,52): warning C4244: “参数”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9385,24): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9398,22): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9400,20): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9401,26): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9524,23): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9663,24): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9713,22): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9718,20): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(9719,26): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+    正在创建库 D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\x64\Release\InsCamera.lib 和对象 D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\x64\Release\InsCamera.exp
+  正在生成代码
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\Ins_Camera_proc.cpp(2723): warning C4715: “InsCameraIkap::set_ins_trigger_source_activated”: 不是所有的控件路径都返回值
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(403): warning C4715: “modbus_udp::modbuserror_handle”: 不是所有的控件路径都返回值
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(3999): warning C4715: “InsPMDL_lightSouce::set_encoder_trigger_pulse_width”: 不是所有的控件路径都返回值
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(3743): warning C4715: “InsPMDL_lightSouce::set_light_source_response_time”: 不是所有的控件路径都返回值
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(3895): warning C4715: “InsPMDL_lightSouce::set_light_source_trigger_output_width”: 不是所有的控件路径都返回值
+D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\InsCamera\source\modbus_udp.cpp(1457): warning C4715: “InsPMDL_lightSouce::FreeRunForFocus”: 不是所有的控件路径都返回值
+  6046 of 6069 functions (99.6%) were compiled, the rest were copied from previous compilation.
+    16 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  InsCamera.vcxproj -> D:\1_INS\INS_2D5LVS_20240621-sdkUp-AntiAliasing\InsCamera\x64\Release\InsCamera.dll
